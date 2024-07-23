@@ -5,25 +5,26 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #a00404   ;
-  --secondary-color: #464e53 ;
-  --accent1-color: rgb(89, 127, 91);
-  --accent2-color: #675a7a;
+  --primary-color: black   ;
+  --secondary-color: green ;
+  --accent1-color: rgb(81, 81, 81);
+  --accent2-color: red;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "creepster";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #a00404;  /* headlines on a white background */ 
-  --headline-color-on-color: rgb(89, 127, 91); /* headlines on a colored background */ 
-  --paragraph-color-on-white: #a00404; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #675a7a;; /* paragraph text on a colored background */ 
+  --headline-color-on-white: black;  /* headlines on a white background */ 
+  --headline-color-on-color: green; /* headlines on a colored background */ 
+  --paragraph-color-on-white: green; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: green;; /* paragraph text on a colored background */ 
   --paragraph-background-color: black  ;
-  --nav-link-color: #a00404;
-  --nav-background-color: #675a7a;
-  --nav-hover-link-color: rgb(89, 127, 91);
-  --nav-hover-background-color: #675a7a;
+  --nav-link-color: black;
+  --nav-background-color: rgb(75, 75, 75);
+  --nav-hover-link-color: green;
+  --nav-hover-background-color: rgb(75, 75, 75)
+  ;
 }
 
 
