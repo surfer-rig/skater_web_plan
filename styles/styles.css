@@ -8,19 +8,20 @@
 
 body {
     background-color: black;
-    color: green;
 }
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: hsl(0, 1%, 26%);
+    background-color: hsl(0, 3%, 71%);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: green;
 }
 .navbar {
     display: flex;
     align-items: center;
+    margin: 20px;
 }
 .navbar ul {
     list-style-type: none;
@@ -29,11 +30,12 @@ header {
     margin-right: 20px; 
 }
 .navbar ul li {
-    margin-right: 10px; 
+    margin-right: 20px; 
 }
 .navbar a {
     text-decoration: none;
     color: black; 
+    font-size: 1.5em;
 }
 .navbar a:hover {
     color: green; 
@@ -42,7 +44,7 @@ header {
     flex: 1; 
     display: flex;
     justify-content: left; 
-    margin-left: 25px;
+    margin-left: 50px;
 }
 .logo {
     max-width: 400px; 
@@ -62,7 +64,7 @@ header {
 footer {
     text-align: left;
     padding: 20px;
-    background-color: hsl(0, 1%, 26%);
+    background-color: hsl(0, 3%, 71%)
 }
 .contact-us {
     margin-bottom: 10px;
@@ -78,8 +80,8 @@ footer {
     margin-right: 0;
 }
 .title {
-    margin-right: 50px;
-    font-size: 2em;
+    margin-right: 30px;
+    font-size: 3em;
 }
 .social-links a:hover img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
@@ -104,6 +106,7 @@ footer {
 }
  main {
    padding: 20px;
+   color: rgb(19, 199, 19);
  }
  .content-section {
     display: flex;
