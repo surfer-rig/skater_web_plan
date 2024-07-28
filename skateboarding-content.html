@@ -42,6 +42,29 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/6YshE52Ileg?si=V301eZSB6cP2OkV4" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
+        <section class="form-section">
+            <div class="form-container">
+                <h2>Contact us to submit your own content for a chance to get featured!</h2>
+                <form action="/thank-you.html" method="get">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="skill-level">Skill Level:</label>
+                    <select id="skill-level" name="skill-level" required>
+                        <option value="" disabled selected>Select your skill level</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <p class="form-info">After you've submitted your information you'll recieve an email response from one of our team members who will help you submit your video!</p>
     </main>
 
     <footer>
